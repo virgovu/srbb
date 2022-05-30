@@ -1,0 +1,32 @@
+* {
+
+}
+
+.list {
+	font-size: 40px;
+	margin-left: 50px;
+	font-family: tahoma;
+}
+
+.list > li > a,
+.list > li > ul > li > a {
+	text-decoration: none;
+	color: black;
+}
+
+.list > li > ul > li > a:hover ,
+.list > li > a:hover {
+	font-size: 46px;
+	font-weight: bolder;
+	color: darkred;
+	transition: .3s;
+}
+
+/*.cont {
+	background: blue;
+	height: 550px;
+}
+
+ol {
+	display: flex;
+}*/
