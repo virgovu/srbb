@@ -2,6 +2,10 @@
  /*font-family: Goudy Bookletter 1911, sans-serif;*/
 }
 
+html {
+	background: #F4ECD8;b
+}
+
 /*body {
 	min-width: 1300px;
 }*/
@@ -70,7 +74,12 @@ h1 {
 	}
 
 	.col2{
-		left: 0;
+		left: 0 !important;
 		position: relative !important;
 	}
+}
+
+span {
+	font-size: 30px;
+	font-style: italic;
 }
