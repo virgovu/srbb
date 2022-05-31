@@ -63,3 +63,14 @@ h1 {
 	display: flex;
 	width: 100%;
 }
+
+@media (max-width: 1150px) {
+	.cont {
+		display: block;
+	}
+
+	.col2{
+		left: 0;
+		position: relative !important;
+	}
+}
