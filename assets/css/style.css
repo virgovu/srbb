@@ -1,7 +1,12 @@
 * {
-
+ /*font-family: Goudy Bookletter 1911, sans-serif;*/
 }
 
+/*body {
+	min-width: 1300px;
+}*/
+
+.samples,
 .list {
 	font-size: 40px;
 	margin-left: 50px;
@@ -14,7 +19,9 @@
 	color: black;
 }
 
-.list > li > ul > li > a:hover ,
+.samples > li > ul > li > a:hover,
+.samples > li > a:hover,
+.list > li > ul > li > a:hover,
 .list > li > a:hover {
 	font-size: 46px;
 	font-weight: bolder;
@@ -44,4 +51,15 @@ h2:hover {
 a {
 	text-decoration: none;
 	color: black;
+}
+
+h1 {
+	font-size: 60px;
+	font-style: italic;
+	color: darkgreen;
+}
+
+.cont {
+	display: flex;
+	width: 100%;
 }
