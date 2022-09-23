@@ -1,0 +1,182 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	background: #0f1221;
+}
+
+.sec {
+	width: 98vw;
+    height: 100vh;
+	background: #0f1221;
+	position: relative;
+}
+
+.sec-1 {
+	width: 300px;
+	height: 750px;
+	width: 98vw;
+    height: 100vh;
+	background: red;
+	
+	position:relative;
+	display: flex;
+	margin: auto;
+	display: none;
+}
+
+h1 {
+	color: white;
+	margin: auto;
+	text-align: center;
+}
+
+.sec-2 {
+	/*display: flex;*/
+	/*background: blue;*/
+}
+
+h3 {
+    position: absolute;
+    top: 10%;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+
+}
+
+.sec-2 > .image {
+	width: 600px;
+	height: 400px;
+	background: url('https://aipetri.com/upload/resize_cache/iblock/d80/700_490_2/umoj7brgcg4bptmoii7lig0pzxh16xz0.jpg');
+	background-size: cover;
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-78%, -50%);
+}
+
+.sec-2 > .txt {
+	height: auto;
+	width: 500px;
+	font-size: 20px;
+	text-align: justify;
+	padding: 30px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.1);
+
+	backdrop-filter: blur(20px);
+	border-radius: 10px;
+	color: white;
+
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-6%, -31%);
+}
+
+.sec-3 h4 {
+	font-size: 40px;
+	font-style: italic;
+	margin-bottom: 16px;
+	width: 100%;
+	text-align: center;
+}
+
+.sec-3 > .image {
+	width: 600px;
+	height: 400px;
+	background: url('https://aipetri.com/upload/resize_cache/iblock/d80/700_490_2/umoj7brgcg4bptmoii7lig0pzxh16xz0.jpg');
+	background-size: cover;
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-18%, -50%);
+}
+
+
+.sec-3 > .txt {
+	height: auto;
+	width: 500px;
+	font-size: 20px;
+	text-align: justify;
+	padding: 30px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.1);
+
+	backdrop-filter: blur(20px);
+	border-radius: 10px;
+	color: white;
+
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-106%, -48%);
+}
+
+.sec-4 > .image {
+	width: 600px;
+	height: 400px;
+	background: url('https://aipetri.com/upload/resize_cache/iblock/d80/700_490_2/umoj7brgcg4bptmoii7lig0pzxh16xz0.jpg');
+	background-size: cover;
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -20%);
+}
+
+
+.sec-4 > .txt {
+	height: auto;
+	width: 500px;
+	font-size: 20px;
+	text-align: justify;
+	padding: 30px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.1);
+
+	backdrop-filter: blur(20px);
+	border-radius: 10px;
+	color: white;
+
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -88%);
+}
+
+.callout {
+	width: 99vw;
+	height: 18vh;
+	/*posdi: flex;*/
+    /*background: blue;*/
+    position: relative;
+}
+
+.callout .container {
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	background: #3a3240;
+	/*top: ;*/
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -88%);
+	display: flex;
+}
+
+.callout h1 {
+	/*width: 80%;*/
+	/*height:  */
+	/*display: flex;*/
+	/*background: blue;*/
+	font-style: italic;
+	font-weight: bold;
+	font-size: 46px;
+}
