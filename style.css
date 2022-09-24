@@ -5,15 +5,16 @@
 
 body {
 	background: #0f1221;
+	overflow-x: hidden;
 }
 
 .sec {
-	width: 98vw;
-    height: 100vh;
+	width: 100vw !important;
+    height: 100vh !important;
 	background: #0f1221;
 	position: relative;
-	min-width: 1366px;
-	min-height: 768px;
+	min-width: 1366px !important;
+	min-height: 768px !important;
 }
 
 .sec-1 {
