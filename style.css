@@ -12,6 +12,8 @@ body {
     height: 100vh;
 	background: #0f1221;
 	position: relative;
+	min-width: 1366px;
+	min-height: 768px;
 }
 
 .sec-1 {
